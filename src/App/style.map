@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"Pages/style.scss"
+	],
+	"sourcesContent": [
+		".AppStyle {\r\n    display: grid;\r\n    grid-template-rows: min-content min-content auto;\r\n    grid-template-areas: \r\n    \"nova-tarefa\"\r\n    \"cronometro\"\r\n    \"tarefas\"\r\n    ;\r\n    row-gap: 24px;\r\n    min-width: 320px;\r\n    min-height: calc(100vh - 32px);\r\n    width: 100%;\r\n    padding: 32px;\r\n    box-sizing: border-box;\r\n    border-radius: 10px;\r\n    background-color: #171717;\r\n  \r\n    @media screen and (min-width:1280px)  {\r\n      grid-template-areas: \r\n      \"nova-tarefa tarefas\"\r\n      \"cronometro tarefas\"\r\n      ;\r\n      column-gap: 64px;\r\n      grid-template-rows: min-content min-content;\r\n      grid-template-columns: 750px 300px;\r\n      justify-content: center;\r\n      align-content: center;\r\n      padding: 64px;\r\n    }\r\n  }"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,SAAS,CAAC;EACN,OAAO,EAAE,IAAI;EACb,kBAAkB,EAAE,4BAA4B;EAChD,mBAAmB,EACnB,sCAGA;EACA,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,KAAK;EAChB,UAAU,EAAE,kBAAkB;EAC9B,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,UAAU;EACtB,aAAa,EAAE,IAAI;EACnB,gBAAgB,EAAE,OAAO;CAc1B;;AAZC,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,MAAM;;EAjBxC,AAAA,SAAS,CAAC;IAkBJ,mBAAmB,EACnB,2CAEA;IACA,UAAU,EAAE,IAAI;IAChB,kBAAkB,EAAE,uBAAuB;IAC3C,qBAAqB,EAAE,WAAW;IAClC,eAAe,EAAE,MAAM;IACvB,aAAa,EAAE,MAAM;IACrB,OAAO,EAAE,IAAI;GAEhB"
+}

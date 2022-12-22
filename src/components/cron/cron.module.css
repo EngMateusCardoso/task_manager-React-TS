@@ -1,0 +1,66 @@
+/* line 1, ../../../OneDrive/ESX/Projetos/Reserva/Estudos/TypeScript e React/React-project/task-manager/src/components/cron/style.scss */
+.cronometro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-area: cronometro;
+}
+
+/* line 7, ../../../OneDrive/ESX/Projetos/Reserva/Estudos/TypeScript e React/React-project/task-manager/src/components/cron/style.scss */
+.cronometro .relogioWrapper {
+  align-items: center;
+  background-color: #7687A1;
+  border-radius: 10px;
+  box-shadow: 2px 4px 4px #0000009F;
+  box-sizing: border-box;
+  display: flex;
+  font-size: 5rem;
+  justify-content: center;
+  margin-bottom: 24px;
+  padding: 16px 12px;
+  width: 100%;
+}
+
+/* line 21, ../../../OneDrive/ESX/Projetos/Reserva/Estudos/TypeScript e React/React-project/task-manager/src/components/cron/style.scss */
+.cronometro .titulo {
+  font-size: 2rem;
+}
+
+/* line 25, ../../../OneDrive/ESX/Projetos/Reserva/Estudos/TypeScript e React/React-project/task-manager/src/components/cron/style.scss */
+.cronometro button {
+  background-color: #88bcd1;
+  border-radius: 10px;
+  box-shadow: 2px 4px 4px #0000009F;
+  color: #272626;
+  cursor: pointer;
+  font-size: 1.25rem;
+  padding: 16px;
+  width: 150px;
+}
+
+/* line 35, ../../../OneDrive/ESX/Projetos/Reserva/Estudos/TypeScript e React/React-project/task-manager/src/components/cron/style.scss */
+.cronometro button:active {
+  background-color: #7CA6B7;
+  box-shadow: 2px 2px 4px #0000009F inset;
+  cursor: auto;
+}
+
+@media screen and (min-width: 1280px) {
+  /* line 44, ../../../OneDrive/ESX/Projetos/Reserva/Estudos/TypeScript e React/React-project/task-manager/src/components/cron/style.scss */
+  .cronometro .relogioWrapper {
+    font-size: 15rem;
+  }
+  /* line 48, ../../../OneDrive/ESX/Projetos/Reserva/Estudos/TypeScript e React/React-project/task-manager/src/components/cron/style.scss */
+  .cronometro p {
+    font-size: 2rem;
+  }
+  /* line 52, ../../../OneDrive/ESX/Projetos/Reserva/Estudos/TypeScript e React/React-project/task-manager/src/components/cron/style.scss */
+  .cronometro button {
+    grid-column-start: span 2;
+    justify-self: center;
+    width: 200px;
+    font-size: 2.25rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"Button/style.scss"
+	],
+	"sourcesContent": [
+		".botao {\r\n    align-self: center;\r\n    background-color: #88bcd1;\r\n    border-radius: 10px;\r\n    box-shadow: 2px 4px 4px #0000009F;\r\n    color: #272626;\r\n    cursor: pointer;\r\n    font-size: 1.25rem;\r\n    padding: 16px;\r\n    width: 150px;\r\n    \r\n    &:active {\r\n      background-color: #7CA6B7;\r\n      box-shadow: 2px 2px 4px #0000009F inset;\r\n    }\r\n  }\r\n  \r\n  @media screen and (min-width: 1280px) {\r\n    .botao {\r\n      grid-column-start: span 2;\r\n      justify-self: center;\r\n      width: 200px;\r\n      font-size: 2.25rem;\r\n    }\r\n  }"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,MAAM,CAAC;EACH,UAAU,EAAE,MAAM;EAClB,gBAAgB,EAAE,OAAO;EACzB,aAAa,EAAE,IAAI;EACnB,UAAU,EAAE,qBAAqB;EACjC,KAAK,EAAE,OAAO;EACd,MAAM,EAAE,OAAO;EACf,SAAS,EAAE,OAAO;EAClB,OAAO,EAAE,IAAI;EACb,KAAK,EAAE,KAAK;CAMb;;;AAfH,AAWI,MAXE,AAWD,OAAO,CAAC;EACP,gBAAgB,EAAE,OAAO;EACzB,UAAU,EAAE,2BAA2B;CACxC;;AAGH,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,MAAM;;EAClC,AAAA,MAAM,CAAC;IACL,iBAAiB,EAAE,MAAM;IACzB,YAAY,EAAE,MAAM;IACpB,KAAK,EAAE,KAAK;IACZ,SAAS,EAAE,OAAO;GACnB"
+}
