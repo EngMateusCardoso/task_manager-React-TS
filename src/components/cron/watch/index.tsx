@@ -1,6 +1,5 @@
 import React from "react";
 import style from "./watch.module.css";
-import { Console } from "console";
 
 interface Props {
     time: number | undefined
