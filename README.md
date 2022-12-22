@@ -1,5 +1,13 @@
 # Task Manager
 
+## The project
+![image](https://user-images.githubusercontent.com/93548287/209155049-6260b0a8-a2d9-40a1-811a-bdc20b7bdf90.png)
+## Add Tasks
+![image1](https://user-images.githubusercontent.com/93548287/209155885-71fe885e-8767-4c72-a2d9-319dcb9fd290.png)
+## Select task and start de timer
+![image2](https://user-images.githubusercontent.com/93548287/209156703-67e66b07-27a0-492a-9b9b-810cc42aa0cd.png)
+## The manager check the task when conclude.
+![image2](https://user-images.githubusercontent.com/93548287/209156959-81f71b85-e2aa-44f0-ab3d-9149860859b9.png)
 
 # Getting Started with Create React App
 
